@@ -1,0 +1,186 @@
+ :root {
+    --primary-heading-color: #FFFFFF;
+    --secondary-heading-color:  #212121;
+    --main-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --button-filter-color: #2196F3;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+    --main-font: 'Roboto', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: var(--primary-bg-color);
+   color: var(--main-text-color);
+   font-family: var(--main-font), sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.714;
+   letter-spacing: 0.03em;
+}
+
+.logo {
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   color: var(--secondary-heading-color);
+   font-family: 'Raleway', sans-serif;
+}
+
+.logo > span {
+   color: var(--accent-text-color);
+}
+
+.logo .white-logo {
+   color: var(--primary-heading-color);
+}
+
+.site-nav-item {
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--secondary-heading-color);
+}
+
+.cite-active {
+   color: var(--accent-text-color);
+}
+
+.contacts-item {
+   font-weight: 500;
+   line-height: 1.86;
+   letter-spacing: 0.02em;
+   color: var(--main-text-color);
+} 
+
+.site-nav-item:hover,
+.site-nav-item:focus,
+.contacts-item:hover,
+.contacts-item:focus {
+   color: var(--accent-text-color);
+}
+
+.hero {
+   background-color: var(--footer-bg-color);
+}
+
+.hero-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--primary-heading-color);
+}
+
+.button {
+   width: 200px;
+   height: 50px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: var(--primary-heading-color);
+   background-color: var(--button-filter-color);
+}
+
+.secondary-headings {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+   color: var(--secondary-heading-color);
+}
+
+.hidden {
+   display: none;
+}
+
+.advantages-heading {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.44;
+   text-transform: uppercase;
+   color: var(--secondary-heading-color);
+}
+
+.team {
+   background-color: var(--secondary-bg-color);
+}
+
+.team-name {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+   color: var(--secondary-heading-color);
+}
+.position {
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+
+footer {
+   background-color: var(--footer-bg-color);
+}
+
+.address {
+   font-style: normal;
+   color: var(--primary-bg-color);
+}
+
+.contacts-footer-item {
+   color: var(--footer-contacts-color);
+}
+
+.filter-button {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   text-align: center;
+   color:var(--secondary-heading-color);
+   background-color:var(--secondary-bg-color);
+   border-radius: 4px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+   color: var(--primary-heading-color);
+   background-color:var(--button-filter-color);
+   border-radius: 4px;
+}
+
+.examples-heading {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   color: var(--secondary-heading-color);
+}
+
+.examples-filter {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.87;
+   color: var(--main-text-color);
+}
